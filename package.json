@@ -1,4 +1,5 @@
 {
+  "homepage": "http://wahaj10.github.io/Parsec-Tech-React",
   "name": "parsec-tech",
   "version": "1.0.0",
   "private": true,
@@ -12,6 +13,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "craco build",
     "test": "craco test --env=jsdom",
     "eject": "craco eject"
@@ -32,6 +35,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "react-scripts": "^5.0.1"
   }
 }

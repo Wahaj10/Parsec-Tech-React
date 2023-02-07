@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Parsec-Tech-React/static/css/main.ed980601.css",
+    "main.js": "/Parsec-Tech-React/static/js/main.f4dadeb1.js",
+    "index.html": "/Parsec-Tech-React/index.html",
+    "main.ed980601.css.map": "/Parsec-Tech-React/static/css/main.ed980601.css.map",
+    "main.f4dadeb1.js.map": "/Parsec-Tech-React/static/js/main.f4dadeb1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed980601.css",
+    "static/js/main.f4dadeb1.js"
+  ]
+}

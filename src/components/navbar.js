@@ -1,19 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
+import NavigationLinks from "./navigation-links";
+import "./navbar.css";
 
-import NavigationLinks from './navigation-links'
-import './navbar.css'
+import logo from "../playground_assets/parsec-black-200h.png";
 
 const Navbar = (props) => {
   return (
     <div className="navbar-navbar-container">
       <header data-role="Header" className="navigation-container">
-        <img
-          alt={props.image_alt2}
-          src={props.image_src2}
-          className="navbar-image"
-        />
+        <img alt={props.image_alt2} src={logo} className="navbar-image" />
         <div className="navbar-nav">
           <NavigationLinks rootClassName="navigation-links-root-class-name10"></NavigationLinks>
         </div>
@@ -27,7 +23,7 @@ const Navbar = (props) => {
             <div className="navbar-container">
               <img
                 alt={props.image_alt1}
-                src={props.image_src1}
+                src={"./parsec-black-200h.png"}
                 className="navbar-image1"
               />
               <div data-role="CloseMobileMenu" className="navbar-menu-close">
@@ -68,27 +64,15 @@ const Navbar = (props) => {
         </button>
       </header>
     </div>
-  )
-}
+  );
+};
 
 Navbar.defaultProps = {
-  image_src1: '/playground_assets/logo-1500h.png',
-  image_src2: '/playground_assets/parsec%20black-200h.png',
-  image_alt1: 'image',
-  text: 'Follow us',
-  PrimaryBtn: 'Get started',
-  PrimaryBtn1: 'Get started',
-  image_alt2: 'image',
-}
+  image_alt1: "image",
+  text: "Follow us",
+  PrimaryBtn: "Get started",
+  PrimaryBtn1: "Get started",
+  image_alt2: "image",
+};
 
-Navbar.propTypes = {
-  image_src1: PropTypes.string,
-  image_src2: PropTypes.string,
-  image_alt1: PropTypes.string,
-  text: PropTypes.string,
-  PrimaryBtn: PropTypes.string,
-  PrimaryBtn1: PropTypes.string,
-  image_alt2: PropTypes.string,
-}
-
-export default Navbar
+export default Navbar;

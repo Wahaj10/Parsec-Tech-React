@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
-
-import './slide.css'
+import "./slide.css";
+import slideSrc from "../playground_assets/union-200h.png";
 
 const Slide = (props) => {
   return (
@@ -13,11 +12,7 @@ const Slide = (props) => {
       <div className="slide-max-width max-content-container">
         <div className="slide-left-side">
           <div className="slide-decorations-container">
-            <img
-              alt="image"
-              src="/playground_assets/union-200h.png"
-              className="slide-dots"
-            />
+            <img alt="image" src={slideSrc} className="slide-dots" />
             <div className="slide-squares-container">
               <div className="slide-light-green"></div>
               <div className="slide-orange"></div>
@@ -56,27 +51,18 @@ const Slide = (props) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 Slide.defaultProps = {
-  Author: 'Elisabeth Brooke',
+  Author: "Elisabeth Brooke",
   Testimonial:
-    '“Love it! I really like the user interface. The sleek aesthetic of the software makes it easy and pleasant to use. I am also a big fan of the way I can customize and organize different feeds and mail sources.”',
-  rootClassName: '',
+    "“Love it! I really like the user interface. The sleek aesthetic of the software makes it easy and pleasant to use. I am also a big fan of the way I can customize and organize different feeds and mail sources.”",
+  rootClassName: "",
   image_src:
-    'https://images.unsplash.com/photo-1508002366005-75a695ee2d17?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUxfHxzbWlsZXxlbnwwfHx8fDE2NDM0MDc4MTE&ixlib=rb-1.2.1&w=700',
-  image_alt: 'image',
-  Role: 'Finance Broker',
-}
+    "https://images.unsplash.com/photo-1508002366005-75a695ee2d17?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDUxfHxzbWlsZXxlbnwwfHx8fDE2NDM0MDc4MTE&ixlib=rb-1.2.1&w=700",
+  image_alt: "image",
+  Role: "Finance Broker",
+};
 
-Slide.propTypes = {
-  Author: PropTypes.string,
-  Testimonial: PropTypes.string,
-  rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  Role: PropTypes.string,
-}
-
-export default Slide
+export default Slide;

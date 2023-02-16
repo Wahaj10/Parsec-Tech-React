@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import PropTypes from 'prop-types'
-
-import './footer.css'
+import "./footer.css";
+import logo from "../playground_assets/parsec-black-200h.png";
 
 const Footer = (props) => {
   return (
@@ -11,11 +10,7 @@ const Footer = (props) => {
     >
       <div className="footer-max-width max-content-container">
         <div className="footer-container">
-          <img
-            alt="image"
-            src="/playground_assets/parsec%20black-200h.png"
-            className="footer-image"
-          />
+          <img alt="image" src={logo} className="footer-image" />
           <div className="footer-social-media">
             <span className="footer-text">Follow us</span>
             <div className="footer-container1">
@@ -42,15 +37,11 @@ const Footer = (props) => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 Footer.defaultProps = {
-  rootClassName: '',
-}
+  rootClassName: "",
+};
 
-Footer.propTypes = {
-  rootClassName: PropTypes.string,
-}
-
-export default Footer
+export default Footer;

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Parsec-Tech-React/static/css/main.ed980601.css",
-    "main.js": "/Parsec-Tech-React/static/js/main.f53c015f.js",
+    "main.css": "/Parsec-Tech-React/static/css/main.a367fc95.css",
+    "main.js": "/Parsec-Tech-React/static/js/main.24a842f8.js",
     "static/media/laptop-1200w.jpeg": "/Parsec-Tech-React/static/media/laptop-1200w.5a410b33682a0e30e753.jpeg",
     "static/media/security-1200w.jpeg": "/Parsec-Tech-React/static/media/security-1200w.41f82691f2b846e005f9.jpeg",
     "static/media/mobileapp2-400h.png": "/Parsec-Tech-React/static/media/mobileapp2-400h.5cf9be11cb3551f2a4d0.png",
     "static/media/phone-1200w.jpeg": "/Parsec-Tech-React/static/media/phone-1200w.78cd3d17ade0ae536c16.jpeg",
     "index.html": "/Parsec-Tech-React/index.html",
-    "main.ed980601.css.map": "/Parsec-Tech-React/static/css/main.ed980601.css.map",
-    "main.f53c015f.js.map": "/Parsec-Tech-React/static/js/main.f53c015f.js.map"
+    "main.a367fc95.css.map": "/Parsec-Tech-React/static/css/main.a367fc95.css.map",
+    "main.24a842f8.js.map": "/Parsec-Tech-React/static/js/main.24a842f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed980601.css",
-    "static/js/main.f53c015f.js"
+    "static/css/main.a367fc95.css",
+    "static/js/main.24a842f8.js"
   ]
 }

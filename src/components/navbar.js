@@ -33,9 +33,12 @@ const Navbar = (props) => {
               </div>
             </div>
             <NavigationLinks rootClassName="navigation-links-root-class-name11"></NavigationLinks>
-            <button className="navbar-primary-btn button-primary button">
+            <a
+              href="#contact-us"
+              className="navbar-primary-btn button-primary button"
+            >
               {props.PrimaryBtn1}
-            </button>
+            </a>
           </div>
           <div className="navbar-social-media">
             <span className="navbar-text">{props.text}</span>
@@ -59,9 +62,12 @@ const Navbar = (props) => {
             </div>
           </div>
         </div>
-        <button className="button-primary button navbar-primary-btn1">
+        <a
+          href="#contact-us"
+          className="button-primary button navbar-primary-btn1"
+        >
           {props.PrimaryBtn}
-        </button>
+        </a>
       </header>
     </div>
   );

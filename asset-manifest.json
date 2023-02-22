@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Parsec-Tech-React/static/css/main.75318588.css",
-    "main.js": "/Parsec-Tech-React/static/js/main.eecb43a0.js",
+    "main.js": "/Parsec-Tech-React/static/js/main.621e7659.js",
     "static/media/about-us.png": "/Parsec-Tech-React/static/media/about-us.c5678b714eeac8dfe65d.png",
     "static/media/laptop-1200w.jpeg": "/Parsec-Tech-React/static/media/laptop-1200w.5a410b33682a0e30e753.jpeg",
     "static/media/security-1200w.jpeg": "/Parsec-Tech-React/static/media/security-1200w.41f82691f2b846e005f9.jpeg",
@@ -9,10 +9,10 @@
     "static/media/phone-1200w.jpeg": "/Parsec-Tech-React/static/media/phone-1200w.78cd3d17ade0ae536c16.jpeg",
     "index.html": "/Parsec-Tech-React/index.html",
     "main.75318588.css.map": "/Parsec-Tech-React/static/css/main.75318588.css.map",
-    "main.eecb43a0.js.map": "/Parsec-Tech-React/static/js/main.eecb43a0.js.map"
+    "main.621e7659.js.map": "/Parsec-Tech-React/static/js/main.621e7659.js.map"
   },
   "entrypoints": [
     "static/css/main.75318588.css",
-    "static/js/main.eecb43a0.js"
+    "static/js/main.621e7659.js"
   ]
 }

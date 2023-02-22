@@ -16,7 +16,7 @@
   --dl-color-grays-white80: #ffffffcc;
   --dl-radius-radius-round: 50%;
   --dl-color-grays-black100: #000000;
-  --dl-color-grays-white100: #FFFFFF;
+  --dl-color-grays-white100: #ffffff;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
@@ -215,7 +215,7 @@
   text-decoration: none;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .navbar-link {
     margin-bottom: var(--dl-space-space-unit);
   }
@@ -235,4 +235,3 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
 }
-

@@ -59,6 +59,9 @@ const ContactUs = (props) => {
             <iframe name="formFrame" id="form-frame" />
           </div>
         </div>
+        <div id="contact-right">
+          <img id="contact-image" src={contactImage} />
+        </div>
       </div>
     </div>
   );

@@ -35,8 +35,9 @@
 
 #contact-right {
   width: auto;
-  height: 450px;
+  height: 390px;
   align-self: flex-end;
+  min-width: 550px;
 }
 #contact-image {
   width: 100%;

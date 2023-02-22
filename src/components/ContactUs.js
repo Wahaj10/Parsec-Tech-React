@@ -1,6 +1,15 @@
 import React from "react";
 import contactImage from "../playground_assets/about-us.png";
 
+function submitForm() {
+  const frm = document.getElementById("form-keep");
+  frm.submit(); // Submit the form
+  frm.reset(); // Reset all form data
+
+  const frmbtn = document.getElementById("contact-form-submit");
+  frmbtn.value = "Submitted ✔";
+  return false; // Prevent page refresh
+}
 const ContactUs = (props) => {
   return (
     <div id="contact-us" className="home-section-six section-container">
@@ -18,25 +27,24 @@ const ContactUs = (props) => {
               accept-charset="UTF-8"
               enctype="multipart/form-data"
               method="POST"
-              onsubmit="submitForm()"
             >
               <input
                 name="name"
-                autocomplete="off"
+                autoComplete="off"
                 type="text"
                 id="name-input"
                 placeholder="Your name"
               />
               <input
                 name="company"
-                autocomplete="off"
+                autoComplete="off"
                 type="text"
                 id="company-input"
                 placeholder="Your company"
               />
               <input
                 name="email"
-                autocomplete="off"
+                autoComplete="off"
                 type="text"
                 id="email-input"
                 placeholder="Your email"
@@ -44,17 +52,18 @@ const ContactUs = (props) => {
 
               <input
                 name="description"
-                autocomplete="off"
+                autoComplete="off"
                 type="text"
                 id="description-input"
                 placeholder="Leave us a message"
               />
-              <button
+              <input
+                type="button"
+                value="Get started"
                 id="contact-form-submit"
                 className="home-button button-primary button"
-              >
-                Get started
-              </button>
+                onClick={submitForm}
+              />
             </form>
             <iframe name="formFrame" id="form-frame" />
           </div>

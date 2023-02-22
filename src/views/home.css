@@ -311,15 +311,6 @@
 .home-max-width6 {
   align-items: stretch;
 }
-.home-content-container5 {
-  flex: 1;
-  height: 524px;
-  display: flex;
-  min-width: 60%;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
-}
 .home-text29 {
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -508,32 +499,7 @@
   font-style: normal;
   font-weight: 400;
 }
-#contact-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 520px;
-}
-#form-keep {
-  display: flex;
-  flex-direction: column;
-}
 
-#form-keep > input[type="text"] {
-  padding: 20px;
-  border-radius: 15px;
-  margin: 7px 0;
-  width: 40%;
-}
-#form-frame {
-  display: none;
-}
-
-#description-input {
-  height: 99px;
-  width: 80% !important;
-  margin-bottom: 14px !important;
-}
 @media (max-width: 991px) {
   .home-max-width {
     flex-direction: column;

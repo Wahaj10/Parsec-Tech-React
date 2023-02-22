@@ -6,7 +6,17 @@
   padding-top: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
 }
+.content-container5 {
+  flex: 1;
+  display: flex;
+  min-width: 60%;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .copyright-max-width {
   align-items: stretch;
 }
@@ -17,7 +27,31 @@
   font-weight: 300;
   line-height: 1.5;
 }
-@media(max-width: 991px) {
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 404px;
+  width: 42%;
+}
+#form-keep {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-keep > input[type="text"] {
+  padding: 20px;
+  border-radius: 15px;
+  margin: 7px 0;
+}
+#form-frame {
+  display: none;
+}
+
+#description-input {
+  height: 123px;
+  margin-bottom: 14px !important;
+}
+@media (max-width: 991px) {
   .copyright-max-width {
     flex-direction: column;
   }

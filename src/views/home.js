@@ -3,6 +3,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 
 import Navbar from "../components/navbar";
+import ContactUs from "../components/ContactUs";
 import FeatureCard from "../components/feature-card";
 import Footer from "../components/footer";
 import Copyright from "../components/copyright";
@@ -217,64 +218,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div id="contact-us" className="home-section-six section-container">
-          <div className="home-max-width6 max-content-container">
-            <div className="home-content-container5">
-              <h1 className="home-text29 Heading2">Contact Us.</h1>
-              <span className="home-text30">
-                Say hello and let&apos;s explore the possibilities together
-              </span>
-              <div id="contact-container">
-                <form
-                  target="formFrame"
-                  id="form-keep"
-                  action="https://formkeep.com/f/db18c8899338"
-                  accept-charset="UTF-8"
-                  enctype="multipart/form-data"
-                  method="POST"
-                  onsubmit="submitForm()"
-                >
-                  <input
-                    name="name"
-                    autocomplete="off"
-                    type="text"
-                    id="name-input"
-                    placeholder="Your name"
-                  />
-                  <input
-                    name="company"
-                    autocomplete="off"
-                    type="text"
-                    id="company-input"
-                    placeholder="Your company"
-                  />
-                  <input
-                    name="email"
-                    autocomplete="off"
-                    type="text"
-                    id="email-input"
-                    placeholder="Your email"
-                  />
-
-                  <input
-                    name="description"
-                    autocomplete="off"
-                    type="text"
-                    id="description-input"
-                    placeholder="Leave us a message"
-                  />
-                  <button
-                    id="contact-form-submit"
-                    className="home-button button-primary button"
-                  >
-                    Get started
-                  </button>
-                </form>
-                <iframe name="formFrame" id="form-frame" />
-              </div>
-            </div>
-          </div>
-        </div>
+        <ContactUs />
       </main>
       <Footer rootClassName="footer-root-class-name"></Footer>
       <Copyright></Copyright>
